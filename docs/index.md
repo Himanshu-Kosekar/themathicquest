@@ -1,20 +1,18 @@
 ---
 title: Mathic Quest
-description: Comprehensive, rigorous, and visual AP STEM study materials.
+description: Ultimate STEM study resource
 ---
 <span style="color: red; font-weight: bold; font-size: 24px;">
     [This website is currently under construction]
 </span>
 
 
-# Welcome to MathicQuest
-
-**MathicQuest** is a STEM study hub designed to empower students tackling advanced high school and early college subjects.
+# Welcome to Mathic Quest !
 
 
 ---
 
-## Featured Course Hubs
+## Featured Courses
 
 <div class="grid cards" markdown>
 
