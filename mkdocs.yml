@@ -3,9 +3,6 @@ site_url: https://themathicquest.com/
 site_description: High-yield STEM study guides, practice problems, and interactive resources for AP Precalculus, AP Physics 1, and beyond.
 site_author: The Mathic Quest Team
 
-repo_name: themathicquest
-repo_url: https://github.com/themathicquest/themathicquest
-
 theme:
   name: material
   logo: assets/logo.svg
@@ -15,7 +12,7 @@ theme:
     # Palette toggle for automatic / light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: black
       accent: cyan
       toggle:
         icon: material/weather-night
@@ -23,7 +20,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
+      primary: black
       accent: cyan
       toggle:
         icon: material/weather-sunny
