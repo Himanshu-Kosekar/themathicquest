@@ -16,21 +16,21 @@ description: Ultimate STEM study resource
 
 <div class="grid cards" markdown>
 
--   :material-function: **[AP Precalculus](ap-precalculus/index.md)**
+- :material-function: **[AP Precalculus](ap-precalculus/index.md)**
 
-    ---
+  ---
 
-    Deep structural exploration of functions: polynomial, rational, exponential, logarithmic, and trigonometric models.
+  Deep structural exploration of functions: polynomial, rational, exponential, logarithmic, and trigonometric models.
 
-    [:octicons-arrow-right-24: Explore AP Precalculus](ap-precalculus/index.md)
+  [:octicons-arrow-right-24: Explore AP Precalculus](ap-precalculus/index.md)
 
--   :material-atom: **[AP Physics 1](ap-physics-1/index.md)**
+- :material-atom: **[AP Physics 1](ap-physics-1/index.md)**
 
-    ---
+  ---
 
-    Conceptual and algebraic mechanics: kinematics, Newton's laws, energy, momentum, rotation, and simple harmonic motion.
+  Conceptual and algebraic mechanics: kinematics, Newton's laws, energy, momentum, rotation, and simple harmonic motion.
 
-    [:octicons-arrow-right-24: Explore AP Physics 1](ap-physics-1/index.md)
+  [:octicons-arrow-right-24: Explore AP Physics 1](ap-physics-1/index.md)
 
 </div>
 
