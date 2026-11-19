@@ -1,0 +1,78 @@
+site_name: The Mathic Quest
+site_url: https://themathicquest.com/
+site_description: High-yield STEM study guides, practice problems, and interactive resources for AP Precalculus, AP Physics 1, and beyond.
+site_author: The Mathic Quest Team
+
+repo_name: themathicquest
+repo_url: https://github.com/themathicquest/themathicquest
+
+theme:
+  name: material
+  language: en
+  palette:
+    # Palette toggle for automatic / light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - AP Precalculus:
+      - Overview: ap-precalculus/index.md
+      - "Unit 1: Polynomial & Rational Functions": ap-precalculus/unit-1-polynomial-rational.md
+      - "Unit 2: Exponential & Logarithmic Functions": ap-precalculus/unit-2-exponential-logarithmic.md
+      - "Unit 3: Trigonometric & Polar Functions": ap-precalculus/unit-3-trigonometric-polar.md
+      - "Unit 4: Functions Involving Parameters, Vectors, & Matrices": ap-precalculus/unit-4-functions-parameters-vectors-matrices.md
+  - AP Physics 1:
+      - Overview: ap-physics-1/index.md
+      - "Unit 1: Kinematics": ap-physics-1/unit-1-kinematics.md
+      - "Unit 2: Force & Translational Dynamics": ap-physics-1/unit-2-force-translational-dynamics.md
+      - "Unit 3: Work, Energy, & Power": ap-physics-1/unit-3-work-energy-power.md
+      - "Unit 4: Linear Momentum": ap-physics-1/unit-4-linear-momentum.md
+      - "Unit 5: Torque & Rotational Dynamics": ap-physics-1/unit-5-torque-rotational-dynamics.md
+      - "Unit 6: Energy & Momentum of Rotating Systems": ap-physics-1/unit-6-energy-momentum-rotating-systems.md
+      - "Unit 7: Oscillations": ap-physics-1/unit-7-oscillations.md
+      - "Unit 8: Fluids": ap-physics-1/unit-8-fluids.md
