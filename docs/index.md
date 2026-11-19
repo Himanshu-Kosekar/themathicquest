@@ -1,17 +1,20 @@
 ---
-title: Welcome to The Mathic Quest
+title: Mathic Quest
 description: Comprehensive, rigorous, and visual AP STEM study materials.
 ---
+<span style="color: red; font-weight: bold; font-size: 24px;">
+    [This website is currently under construction]
+</span>
 
-# Welcome to The Mathic Quest 🚀
 
-**The Mathic Quest** is an open-access, high-yield STEM study hub designed to empower students tackling advanced high school and early college mathematics and physics.
+# Welcome to MathicQuest
 
-Our guides emphasize **first-principles derivations**, **geometric and physical intuition**, and **targeted exam strategies**.
+**MathicQuest** is a STEM study hub designed to empower students tackling advanced high school and early college subjects.
+
 
 ---
 
-## 📚 Featured Course Hubs
+## Featured Course Hubs
 
 <div class="grid cards" markdown>
 
@@ -34,13 +37,6 @@ Our guides emphasize **first-principles derivations**, **geometric and physical 
 </div>
 
 ---
-
-## ⚡ What Makes These Guides Unique?
-
-- **Zero Fluff, Maximum Clarity:** Every unit is structured to map directly to College Board and AP learning objectives.
-- **LaTeX MathJax v3 Typesetting:** Crisp, beautiful equations rendered with full support for instant page transitions.
-- **Interactive Solutions:** Collapsible problem walk-throughs that encourage you to test yourself before viewing answers.
-- **AP Exam Tips & Common Traps:** Explicit callouts highlighting misconceptions that cost points on Free-Response Questions (FRQs).
 
 !!! tip "Fast Keyboard Navigation"
     Use the top search bar (press <kbd>S</kbd> or <kbd>/</kbd>) to search across formulas, theorems, and physics laws instantly.
