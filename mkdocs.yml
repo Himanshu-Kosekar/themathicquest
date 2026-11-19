@@ -9,6 +9,7 @@ repo_url: https://github.com/themathicquest/themathicquest
 theme:
   name: material
   logo: assets/logo.svg
+  favicon: assets/favicon.svg
   language: en
   palette:
     # Palette toggle for automatic / light mode
