@@ -1,7 +1,8 @@
 site_name: Mathic Quest
 site_url: https://themathicquest.com/
 site_description: High-yield STEM study guides, practice problems, and interactive resources for AP Precalculus, AP Physics 1, and beyond.
-site_author: The Mathic Quest Team
+site_author: MathicQuest Team
+copyright: Copyright &copy; 2026 Mathic Quest
 
 theme:
   name: material
@@ -52,10 +53,20 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/desmos-loader.js
 
 nav:
   - Home: index.md
