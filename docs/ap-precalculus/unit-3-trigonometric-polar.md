@@ -9,6 +9,23 @@ Unit 3 examines periodic motion and angular displacement, transitioning from geo
 
 ---
 
+## 📺 Video Lessons & Channel Series
+
+Follow along with the AP Precalculus video series from our YouTube channel:
+
+<div class="video-wrapper">
+  <iframe 
+    src="https://www.youtube-nocookie.com/embed/videoseries?list=UU1c2nUa4hYaSrwXKvjmlJIA" 
+    title="AP Precalculus Video Series - Mathic Quest" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+[:material-youtube: Explore all video lessons on our YouTube Channel](https://www.youtube.com/channel/UC1c2nUa4hYaSrwXKvjmlJIA){ .md-button .md-button--primary target="_blank" }
+
+---
+
 ## 3.1 Radian Measure & The Unit Circle
 
 An angle of $\theta$ radians subtends an arc length $s$ equal to $\theta$ on a circle of radius $r = 1$:
