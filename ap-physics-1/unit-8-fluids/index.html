@@ -1,0 +1,2063 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Complete review of density, hydrostatic pressure, Archimedes' buoyant force, continuity equation, and Bernoulli's equation for AP Physics 1.">
+      
+      
+        <meta name="author" content="MathicQuest Team">
+      
+      
+        <link rel="canonical" href="https://themathicquest.com/ap-physics-1/unit-8-fluids/">
+      
+      
+        <link rel="prev" href="../unit-7-oscillations/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
+    
+    
+      
+        <title>Unit 8: Fluids - Mathic Quest</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#unit-8-fluids" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Mathic Quest" class="md-header__button md-logo" aria-label="Mathic Quest" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <a href="../.." title="Mathic Quest" class="md-header__topic-link">
+            <img src="../../assets/logo.svg" alt="Mathic Quest" class="md-header__logo-img" />
+            <span class="md-ellipsis">
+              Mathic Quest
+            </span>
+          </a>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Unit 8: Fluids
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="cyan"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../ap-precalculus/" class="md-tabs__link">
+          
+  
+  
+  AP Precalculus
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  AP Physics 1
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Mathic Quest" class="md-nav__button md-logo" aria-label="Mathic Quest" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    Mathic Quest
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AP Precalculus
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AP Precalculus
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 1: Polynomial & Rational Functions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Unit 1: Polynomial & Rational Functions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1-polynomial-rational/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 1 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.1-change-in-tandem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.1 Change in Tandem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.2-rates-of-change/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.2 Rates of Change
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.3-rates-of-change-linear-quadratic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.3 Rates of Change in Linear & Quadratic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.4-polynomial-rates-of-change/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.4 Polynomial Rates of Change
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.5-complex-zeros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.5 Complex Zeros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.6-polynomial-end-behavior/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.6 Polynomial End Behavior
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.7-rational-end-behavior/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.7 Rational End Behavior
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.8-rational-zeros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.8 Rational Zeros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.9-rational-vertical-asymptotes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.9 Vertical Asymptotes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.10-rational-holes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.10 Holes in Rational Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.11-equivalent-representations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.11 Equivalent Representations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.12-transformations-of-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.12 Transformations of Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.13-model-selection-articulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.13 Model Selection & Assumptions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-1/1.14-model-construction-application/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.14 Model Construction & Application
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 2: Exponential & Logarithmic Functions
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Unit 2: Exponential & Logarithmic Functions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-2-exponential-logarithmic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 2 Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-2/2.1-change-arithmetic-geometric-sequences/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.1 Arithmetic & Geometric Sequences
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-2/2.2-change-linear-exponential-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.2 Linear & Exponential Changes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-2/2.3-exponential-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.3 Exponential Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-2/2.4-exponential-function-manipulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.4 Exponential Manipulation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-2/2.5-exponential-context-data-modeling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.5 Context & Data Modeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-2/2.6-competing-function-models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.6 Competing Function Models
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-2/2.7-composition-of-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.7 Composition of Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-2/2.8-inverse-functions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.8 Inverse Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-3-trigonometric-polar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 3: Trigonometric & Polar Functions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ap-precalculus/unit-4-functions-parameters-vectors-matrices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 4: Functions Involving Parameters, Vectors, & Matrices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AP Physics 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AP Physics 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../unit-1-kinematics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 1: Kinematics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../unit-2-force-translational-dynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 2: Force & Translational Dynamics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../unit-3-work-energy-power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 3: Work, Energy, & Power
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../unit-4-linear-momentum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 4: Linear Momentum
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../unit-5-torque-rotational-dynamics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 5: Torque & Rotational Dynamics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../unit-6-energy-momentum-rotating-systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 6: Energy & Momentum of Rotating Systems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../unit-7-oscillations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 7: Oscillations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 8: Fluids
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unit 8: Fluids
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        <nav class="md-nav md-nav--secondary" aria-label="Units &amp; Subtopics">
+  <div class="toc-subtopics-wrapper">
+    <label class="md-nav__title toc-subtopics-heading">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z"/></svg>
+      </span>
+      Units &amp; Subtopics
+    </label>
+
+    <div class="toc-subtopics-list">
+      
+        
+        
+      
+        
+        
+          <div class="toc-course-badge">AP Physics 1</div>
+          
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-1-kinematics/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 1: Kinematics</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-2-force-translational-dynamics/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 2: Force & Translational Dynamics</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-3-work-energy-power/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 3: Work, Energy, & Power</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-4-linear-momentum/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 4: Linear Momentum</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-5-torque-rotational-dynamics/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 5: Torque & Rotational Dynamics</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-6-energy-momentum-rotating-systems/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 6: Energy & Momentum of Rotating Systems</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-7-oscillations/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 7: Oscillations</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="./" class="md-nav__link md-nav__link--active toc-subtopic--active">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 8: Fluids</span>
+                  </a>
+                </div>
+              
+            
+          
+        
+      
+    </div>
+  </div>
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--secondary" aria-label="Units &amp; Subtopics">
+  <div class="toc-subtopics-wrapper">
+    <label class="md-nav__title toc-subtopics-heading">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z"/></svg>
+      </span>
+      Units &amp; Subtopics
+    </label>
+
+    <div class="toc-subtopics-list">
+      
+        
+        
+      
+        
+        
+          <div class="toc-course-badge">AP Physics 1</div>
+          
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-1-kinematics/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 1: Kinematics</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-2-force-translational-dynamics/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 2: Force & Translational Dynamics</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-3-work-energy-power/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 3: Work, Energy, & Power</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-4-linear-momentum/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 4: Linear Momentum</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-5-torque-rotational-dynamics/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 5: Torque & Rotational Dynamics</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-6-energy-momentum-rotating-systems/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 6: Energy & Momentum of Rotating Systems</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="../unit-7-oscillations/" class="md-nav__link ">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 7: Oscillations</span>
+                  </a>
+                </div>
+              
+            
+          
+            
+              
+                
+                <div class="toc-unit-single">
+                  <a href="./" class="md-nav__link md-nav__link--active toc-subtopic--active">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">Unit 8: Fluids</span>
+                  </a>
+                </div>
+              
+            
+          
+        
+      
+    </div>
+  </div>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="unit-8-fluids">Unit 8: Fluids</h1>
+<p>Fluids (liquids and gases) represent states of matter that yield continuously to shear stress and assume the shape of their containing boundaries.</p>
+<hr />
+<h2 id="81-density-pressure">8.1 Density &amp; Pressure</h2>
+<ul>
+<li>
+<p><strong>Density (<span class="arithmatex">\(\rho\)</span>):</strong> Mass per unit volume (in <span class="arithmatex">\(\text{kg/m}^3\)</span>):
+  $<span class="arithmatex">\(\rho = \frac{m}{V}\)</span>$
+  <em>(For water at standard conditions, <span class="arithmatex">\(\rho_{\text{water}} = 1{,}000\,\text{kg/m}^3 = 1.0\,\text{g/cm}^3\)</span>).</em></p>
+</li>
+<li>
+<p><strong>Pressure (<span class="arithmatex">\(P\)</span>):</strong> Normal compressive force exerted per unit surface area (in Pascals, <span class="arithmatex">\(\text{Pa} = \text{N/m}^2\)</span>):
+  $<span class="arithmatex">\(P = \frac{F_\perp}{A}\)</span>$
+  <em>(Standard atmospheric pressure: <span class="arithmatex">\(P_{\text{atm}} = 1.013 \times 10^5\,\text{Pa} \approx 101\,\text{kPa}\)</span>).</em></p>
+</li>
+</ul>
+<hr />
+<h2 id="82-hydrostatic-pressure-pascals-principle">8.2 Hydrostatic Pressure &amp; Pascal's Principle</h2>
+<p>For an incompressible fluid of uniform density <span class="arithmatex">\(\rho\)</span> at rest, pressure increases linearly with vertical depth <span class="arithmatex">\(h\)</span>:</p>
+<div class="arithmatex">\[P = P_0 + \rho g h\]</div>
+<p>where:
+- <span class="arithmatex">\(P_0\)</span> is the pressure at the liquid surface (often <span class="arithmatex">\(P_{\text{atm}}\)</span>).
+- <span class="arithmatex">\(\rho g h\)</span> is the hydrostatic pressure contributed by the fluid column.
+- <strong>Gauge Pressure (<span class="arithmatex">\(P_g\)</span>):</strong> The difference between absolute pressure and atmospheric pressure:
+  $<span class="arithmatex">\(P_g = P - P_{\text{atm}} = \rho g h\)</span>$</p>
+<h3 id="pascals-principle">Pascal's Principle</h3>
+<p>An external pressure applied to an enclosed, incompressible fluid is transmitted undiminished to every portion of the fluid and container walls:</p>
+<div class="arithmatex">\[\Delta P_1 = \Delta P_2 \implies \frac{F_1}{A_1} = \frac{F_2}{A_2} \implies F_2 = F_1 \left(\frac{A_2}{A_1}\right)\]</div>
+<hr />
+<h2 id="83-archimedes-principle-buoyancy">8.3 Archimedes' Principle &amp; Buoyancy</h2>
+<p>An object wholly or partially immersed in a fluid experiences an upward <strong>buoyant force</strong> (<span class="arithmatex">\(\vec{F}_b\)</span>) equal to the weight of the fluid displaced by the object:</p>
+<div class="arithmatex">\[F_b = m_{\text{fluid, displaced}} \, g = \rho_{\text{fluid}} V_{\text{submerged}} g\]</div>
+<h3 id="floating-sinking-criteria">Floating &amp; Sinking Criteria</h3>
+<ol>
+<li><strong>Fully Submerged Object:</strong>
+   $<span class="arithmatex">\(F_{\text{net}} = F_b - F_g = \rho_{\text{fluid}} V g - \rho_{\text{object}} V g = (\rho_{\text{fluid}} - \rho_{\text{object}}) V g\)</span>$</li>
+<li>Sinks if <span class="arithmatex">\(\rho_{\text{object}} &gt; \rho_{\text{fluid}}\)</span>.</li>
+<li>Suspended if <span class="arithmatex">\(\rho_{\text{object}} = \rho_{\text{fluid}}\)</span>.</li>
+<li><strong>Floating Object in Static Equilibrium (<span class="arithmatex">\(\sum F_y = 0\)</span>):</strong>
+   $<span class="arithmatex">\(F_b = F_g \implies \rho_{\text{fluid}} V_{\text{submerged}} g = \rho_{\text{object}} V_{\text{total}} g\)</span>$
+   $<span class="arithmatex">\(\frac{V_{\text{submerged}}}{V_{\text{total}}} = \frac{\rho_{\text{object}}}{\rho_{\text{fluid}}}\)</span>$
+   <em>(The fraction submerged equals the ratio of object density to fluid density).</em></li>
+</ol>
+<hr />
+<h2 id="84-fluid-dynamics-the-continuity-equation">8.4 Fluid Dynamics: The Continuity Equation</h2>
+<p>For an ideal fluid (incompressible, non-viscous, laminar streamline flow), mass conservation dictates that the volumetric flow rate (<span class="arithmatex">\(Q\)</span>) remains constant along a pipe of varying cross-sectional area:</p>
+<div class="arithmatex">\[Q = A_1 v_1 = A_2 v_2 = \text{constant}\]</div>
+<p>where <span class="arithmatex">\(A\)</span> is the cross-sectional area and <span class="arithmatex">\(v\)</span> is the average fluid velocity:
+- As the pipe narrows (<span class="arithmatex">\(A\)</span> decreases), fluid speed <span class="arithmatex">\(v\)</span> must <strong>increase</strong> proportionally:
+  $<span class="arithmatex">\(v_2 = v_1 \left(\frac{A_1}{A_2}\right)\)</span>$</p>
+<hr />
+<h2 id="85-bernoullis-equation">8.5 Bernoulli's Equation</h2>
+<p>Bernoulli's equation represents the work-energy theorem applied to a continuous fluid streamline:</p>
+<div class="arithmatex">\[P_1 + \frac{1}{2}\rho v_1^2 + \rho g y_1 = P_2 + \frac{1}{2}\rho v_2^2 + \rho g y_2 = \text{constant}\]</div>
+<p>where:
+- <span class="arithmatex">\(P\)</span> is the static pressure energy density.
+- <span class="arithmatex">\(\frac{1}{2}\rho v^2\)</span> is the kinetic energy density of fluid motion.
+- <span class="arithmatex">\(\rho g y\)</span> is the gravitational potential energy density.</p>
+<h3 id="torricellis-law">Torricelli's Law</h3>
+<p>For a large open tank of liquid with a small drain hole at depth <span class="arithmatex">\(h\)</span> below the surface (<span class="arithmatex">\(A_{\text{tank}} \gg A_{\text{hole}} \implies v_{\text{surface}} \approx 0\)</span> and <span class="arithmatex">\(P_{\text{surface}} = P_{\text{hole}} = P_{\text{atm}}\)</span>):</p>
+<div class="arithmatex">\[v = \sqrt{2gh}\]</div>
+<hr />
+<div class="admonition tip">
+<p class="admonition-title">AP Exam Tip: The Venturi Effect (Narrow Pipe Means LOWER Pressure)</p>
+<p>A common misconception is believing that when water or air rushes into a narrow constriction, pressure increases because the fluid is "squeezed".</p>
+<p>In reality, by the continuity equation, the fluid must <strong>accelerate</strong> to a higher velocity (<span class="arithmatex">\(v_2 &gt; v_1\)</span>).</p>
+<p>By Bernoulli's equation at horizontal height (<span class="arithmatex">\(y_1 = y_2\)</span>):
+$<span class="arithmatex">\(P_1 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2\)</span>$</p>
+<p>Because the kinetic energy density <span class="arithmatex">\(\frac{1}{2}\rho v^2\)</span> increases, the static pressure <span class="arithmatex">\(P\)</span> must <strong>decrease</strong>:
+$<span class="arithmatex">\(v_2 &gt; v_1 \implies P_2 &lt; P_1\)</span>$</p>
+<p>This static pressure reduction explains lift in airplane wings, atomizer sprayers, and the Venturi flow meter.</p>
+</div>
+<hr />
+<h2 id="practice-problem-solution">📝 Practice Problem &amp; Solution</h2>
+<details class="question" open="open">
+<summary>Practice Problem 8.1: Buoyancy and Apparent Weight</summary>
+<p>A solid metal sculpture of unknown composition has a mass of <span class="arithmatex">\(m = 12.0\,\text{kg}\)</span>. When the sculpture is completely submerged in a vat of water (<span class="arithmatex">\(\rho_{\text{water}} = 1{,}000\,\text{kg/m}^3\)</span>), a spring scale attached to the sculpture reads an apparent weight of <span class="arithmatex">\(F_{\text{scale}} = 75.0\,\text{N}\)</span>. Take <span class="arithmatex">\(g = 10\,\text{m/s}^2\)</span>.</p>
+<p>a. Calculate the magnitude of the buoyant force exerted on the submerged sculpture.<br />
+b. Determine the volume <span class="arithmatex">\(V\)</span> of the sculpture.<br />
+c. Calculate the density <span class="arithmatex">\(\rho_{\text{metal}}\)</span> of the sculpture and state whether it would float in liquid mercury (<span class="arithmatex">\(\rho_{\text{mercury}} = 13{,}600\,\text{kg/m}^3\)</span>).</p>
+</details>
+<details class="success">
+<summary>Show Step-by-Step Solution</summary>
+<p><strong>Part a: Calculate the buoyant force:</strong></p>
+<p>Draw the vertical forces on the submerged sculpture in static equilibrium:
+- Upward scale tension: <span class="arithmatex">\(F_{\text{scale}} = 75.0\,\text{N}\)</span>
+- Upward buoyant force: <span class="arithmatex">\(F_b\)</span>
+- Downward true weight: <span class="arithmatex">\(F_g = mg = (12.0\,\text{kg})(10\,\text{m/s}^2) = 120.0\,\text{N}\)</span></p>
+<p>Apply Newton's First Law (<span class="arithmatex">\(\sum F_y = 0\)</span>):</p>
+<div class="arithmatex">\[F_{\text{scale}} + F_b - F_g = 0\]</div>
+<div class="arithmatex">\[F_b = F_g - F_{\text{scale}} = 120.0\,\text{N} - 75.0\,\text{N} = \mathbf{45.0\,\text{N}}\]</div>
+<hr />
+<p><strong>Part b: Determine the volume of the sculpture:</strong></p>
+<p>By Archimedes' Principle:</p>
+<div class="arithmatex">\[F_b = \rho_{\text{water}} V_{\text{submerged}} g\]</div>
+<p>Since the sculpture is completely submerged, <span class="arithmatex">\(V = V_{\text{submerged}}\)</span>:</p>
+<div class="arithmatex">\[45.0\,\text{N} = (1{,}000\,\text{kg/m}^3)(10\,\text{m/s}^2) V = 10{,}000 V\]</div>
+<div class="arithmatex">\[V = \frac{45.0}{10{,}000} = \mathbf{0.0045\,\text{m}^3} = 4.5 \times 10^{-3}\,\text{m}^3 \quad (4.5\,\text{liters})\]</div>
+<hr />
+<p><strong>Part c: Determine density of the sculpture:</strong></p>
+<div class="arithmatex">\[\rho_{\text{metal}} = \frac{m}{V} = \frac{12.0\,\text{kg}}{0.0045\,\text{m}^3} \approx \mathbf{2{,}667\,\text{kg/m}^3}\]</div>
+<p><em>(This is approximately the density of solid aluminum, <span class="arithmatex">\(\approx 2{,}700\,\text{kg/m}^3\)</span>).</em></p>
+<p><strong>Floating in mercury:</strong>
+Since <span class="arithmatex">\(\rho_{\text{metal}} = 2{,}667\,\text{kg/m}^3 &lt; \rho_{\text{mercury}} = 13{,}600\,\text{kg/m}^3\)</span>, the sculpture <strong>will easily float</strong> in mercury, with:</p>
+<div class="arithmatex">\[\frac{V_{\text{submerged}}}{V} = \frac{2{,}667}{13{,}600} \approx 0.196 = \mathbf{19.6\%} \text{ submerged}\]</div>
+</details>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Mathic Quest
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.instant", "navigation.top", "navigation.tracking", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../javascripts/desmos-loader.js"></script>
+      
+    
+  </body>
+</html>

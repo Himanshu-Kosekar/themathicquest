@@ -1,0 +1,227 @@
+/* ==========================================================================
+   Responsive Video Embed Styling
+   ========================================================================== */
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 1.25em 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  background-color: #000000;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ==========================================================================
+   Desmos Interactive Calculator Styling for MkDocs Material
+   ========================================================================== */
+
+.desmos-embed {
+  width: 100%;
+  height: 420px;
+  border: 1px solid var(--md-default-fg-color--lightest, #cbd5e1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1.25em 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background-color: var(--md-default-bg-color, #ffffff);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+[data-md-color-scheme="slate"] .desmos-embed {
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.desmos-embed:focus-within {
+  border-color: var(--md-primary-fg-color, #4f46e5);
+}
+
+@media screen and (max-width: 768px) {
+  .desmos-embed {
+    height: 340px;
+    margin: 1em 0;
+  }
+}
+
+/* ==========================================================================
+   Secondary Sidebar (Right Sidebar) Collapsible Units & Subtopics
+   ========================================================================== */
+
+.toc-subtopics-wrapper {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.toc-subtopics-heading {
+  font-weight: 700 !important;
+  display: flex !important;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--md-default-fg-color) !important;
+  margin-bottom: 0.6rem !important;
+}
+
+.toc-subtopics-heading svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: var(--md-accent-fg-color, #00e5ff);
+}
+
+.toc-course-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.5rem;
+  padding-left: 0.2rem;
+}
+
+.toc-unit-group {
+  margin-bottom: 0.4rem;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+}
+
+.toc-unit-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  padding: 0.35rem 0.4rem;
+  cursor: pointer;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--md-default-fg-color);
+  list-style: none;
+  user-select: none;
+  border-radius: 4px;
+}
+
+.toc-unit-header::-webkit-details-marker {
+  display: none;
+}
+
+.toc-unit-header:hover {
+  background-color: var(--md-default-fg-color--lightest, rgba(0, 0, 0, 0.04));
+  color: var(--md-accent-fg-color, #00e5ff);
+}
+
+.toc-unit-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+  transition: transform 0.2s ease;
+}
+
+.toc-unit-chevron svg {
+  width: 0.95rem;
+  height: 0.95rem;
+  fill: currentColor;
+}
+
+.toc-unit-group[open] > .toc-unit-header .toc-unit-chevron {
+  transform: rotate(90deg);
+}
+
+.toc-unit-title {
+  flex-grow: 1;
+}
+
+.toc-unit-items {
+  margin: 0.2rem 0 0.5rem 0.6rem !important;
+  padding-left: 0.6rem !important;
+  border-left: 1.5px solid var(--md-default-fg-color--lightest, rgba(0, 0, 0, 0.1)) !important;
+}
+
+[data-md-color-scheme="slate"] .toc-unit-items {
+  border-left-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.toc-unit-items .md-nav__link {
+  font-size: 0.7rem !important;
+  line-height: 1.35 !important;
+  padding: 0.25rem 0.4rem !important;
+  color: var(--md-default-fg-color--light) !important;
+  border-radius: 3px;
+  transition: all 0.15s ease;
+}
+
+.toc-unit-items .md-nav__link:hover {
+  color: var(--md-accent-fg-color, #00e5ff) !important;
+  background-color: var(--md-default-fg-color--lightest, rgba(0, 0, 0, 0.03)) !important;
+}
+
+.toc-subtopic--active {
+  font-weight: 700 !important;
+  color: var(--md-accent-fg-color, #00e5ff) !important;
+  background-color: rgba(0, 229, 255, 0.08) !important;
+}
+
+[data-md-color-scheme="slate"] .toc-subtopic--active {
+  background-color: rgba(0, 229, 255, 0.15) !important;
+}
+
+.toc-unit-single {
+  padding: 0.2rem 0.4rem;
+}
+
+.toc-unit-single .md-nav__link {
+  font-size: 0.72rem !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.toc-unit-bullet {
+  color: var(--md-default-fg-color--light);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* ==========================================================================
+   Header Site Title & Logo Link
+   ========================================================================== */
+
+.md-header__button.md-logo {
+  display: none !important;
+}
+
+.md-header__topic-link {
+  color: inherit;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+  vertical-align: middle;
+}
+
+.md-header__topic-link:hover {
+  opacity: 0.85;
+}
+
+.md-header__logo-img {
+  width: 1.55rem;
+  height: 1.55rem;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
