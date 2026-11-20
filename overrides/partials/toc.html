@@ -1,0 +1,56 @@
+{#-
+  Custom Right Sidebar Navigation Partial
+  Replaces the default Table of Contents completely with collapsible Units & Subtopics navigation
+-#}
+<nav class="md-nav md-nav--secondary" aria-label="Units &amp; Subtopics">
+  <div class="toc-subtopics-wrapper">
+    <label class="md-nav__title toc-subtopics-heading">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z"/></svg>
+      </span>
+      Units &amp; Subtopics
+    </label>
+
+    <div class="toc-subtopics-list">
+      {% for course in nav.items if course.children %}
+        {% set course_match = course.active or ('ap-precalculus' in page.url and course.title == 'AP Precalculus') or ('ap-physics-1' in page.url and course.title == 'AP Physics 1') %}
+        {% if course_match or ('ap-precalculus' not in page.url and 'ap-physics-1' not in page.url and course.title == 'AP Precalculus') %}
+          <div class="toc-course-badge">{{ course.title }}</div>
+          {% for unit in course.children %}
+            {% if unit.title != "Overview" %}
+              {% if unit.is_section %}
+                {% set unit_open = unit.active or ('unit-1' in page.url and 'Unit 1' in unit.title) or ('unit-2' in page.url and 'Unit 2' in unit.title) %}
+                <details class="toc-unit-group" {% if unit_open %}open{% endif %}>
+                  <summary class="toc-unit-header">
+                    <span class="toc-unit-chevron">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.59 13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
+                    </span>
+                    <span class="toc-unit-title">{{ unit.title }}</span>
+                  </summary>
+                  <ul class="md-nav__list toc-unit-items">
+                    {% for sub in unit.children %}
+                      {% set is_active = (sub.url == page.url) or (sub.active) %}
+                      <li class="md-nav__item">
+                        <a href="{{ sub.url | url }}" class="md-nav__link {% if is_active %}md-nav__link--active toc-subtopic--active{% endif %}">
+                          <span class="md-ellipsis">{{ sub.title }}</span>
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </details>
+              {% elif unit.is_page %}
+                {% set is_active = (unit.url == page.url) or (unit.active) %}
+                <div class="toc-unit-single">
+                  <a href="{{ unit.url | url }}" class="md-nav__link {% if is_active %}md-nav__link--active toc-subtopic--active{% endif %}">
+                    <span class="toc-unit-bullet">&bull;</span>
+                    <span class="md-ellipsis">{{ unit.title }}</span>
+                  </a>
+                </div>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</nav>
