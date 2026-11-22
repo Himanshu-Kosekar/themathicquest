@@ -3,7 +3,7 @@ title: Mathic Quest
 description: Ultimate STEM study resource
 ---
 
-<span style="color: cyan; font-weight: bold; font-size: 24px;">
+<span style="color: cyan; font-weight: bold; font-size: 14px;">
     ⚠️ This website is currently under construction ⚠️
 </span>
 
