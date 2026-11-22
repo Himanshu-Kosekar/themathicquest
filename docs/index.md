@@ -19,7 +19,7 @@ description: Ultimate STEM study resource
   </iframe>
 </div>
 
-[:material-youtube: Visit our YouTube Channel](https://www.youtube.com/channel/UC1c2nUa4hYaSrwXKvjmlJIA){ .md-button .md-button--primary target="_blank" }
+
 
 ***
 
