@@ -3,11 +3,13 @@ title: Mathic Quest
 description: Ultimate STEM study resource
 ---
 
-<span style="color: cyan; font-weight: bold; font-size: 14px;">
+
+# Welcome to Mathic Quest !
+
+<span style="color: cyan; font-weight: bold; font-size: 12px;">
     ⚠️ This website is currently under construction ⚠️
 </span>
 
-# Welcome to Mathic Quest !
 
 ***
 
