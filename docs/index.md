@@ -2,13 +2,13 @@
 title: Mathic Quest
 description: Ultimate STEM study resource
 ---
-# Welcome to Mathic Quest !
+# Welcome to Mathic Quest ! {: .hero-title }
 
-<span style="color: cyan; font-size: 13px; font-weight: 500;">
+<p style="color: cyan; font-size: 13px; font-weight: 500; margin-top: -0.8rem; margin-bottom: 0.4rem;">
     ⚠️ This website is currently under construction ⚠️
-</span>
+</p>
 
-## Featured Lesson
+### Featured Lesson
 
 <div class="video-wrapper">
   <iframe 

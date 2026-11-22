@@ -242,3 +242,16 @@
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
+
+/* ==========================================================================
+   Home Page Hero Title (Adaptive Light / Dark Colors)
+   ========================================================================== */
+
+.hero-title {
+  color: #000000 !important; /* High-contrast teal for light mode */
+  transition: color 0.25s ease;
+}
+
+[data-md-color-scheme="slate"] .hero-title {
+  color: #ffffff !important; /* Vibrant glowing cyan for dark mode */
+}
