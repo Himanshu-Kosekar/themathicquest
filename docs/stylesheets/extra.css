@@ -244,14 +244,21 @@
 }
 
 /* ==========================================================================
-   Home Page Hero Title (Adaptive Light / Dark Colors)
+   Home Page Hero Title (Adaptive Colors & Variable Fluid Size)
    ========================================================================== */
 
+:root {
+  /* Change this variable to adjust hero-title size across all devices */
+  --hero-title-size: clamp(1.6rem, 3.2vw + 0.5rem, 2.5rem);
+}
+
 .hero-title {
-  color: #000000 !important; /* High-contrast teal for light mode */
+  font-size: var(--hero-title-size) !important;
+  line-height: 1.25 !important;
+  color: #000000 !important;
   transition: color 0.25s ease;
 }
 
 [data-md-color-scheme="slate"] .hero-title {
-  color: #ffffff !important; /* Vibrant glowing cyan for dark mode */
+  color: #ffffff !important;
 }
