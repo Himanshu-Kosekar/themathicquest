@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <!-- Google tag (gtag.js) - Mathic Quest -->
+  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KC29ZWF6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GTM-KC29ZWF6');
+
+    /* Support Material for MkDocs instant navigation tracking */
+    document.addEventListener("DOMContentLoaded", function() {
+      if (typeof location$ !== "undefined") {
+        location$.subscribe(function(url) {
+          gtag('config', 'GTM-KC29ZWF6', {
+            page_path: url.pathname
+          });
+        });
+      }
+    });
+  </script>
+{% endblock %}
