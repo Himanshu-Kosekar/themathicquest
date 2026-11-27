@@ -9,23 +9,6 @@ Welcome to the **AP Precalculus** resource center. This course establishes found
 
 ---
 
-## Featured Video Lessons & Complete Series
-
-Watch comprehensive unit reviews, concept breakdowns, and practice test solutions from our official YouTube channel:
-
-<div class="video-wrapper">
-  <iframe 
-    src="https://www.youtube-nocookie.com/embed/videoseries?list=UU1c2nUa4hYaSrwXKvjmlJIA" 
-    title="AP Precalculus Video Lessons - Mathic Quest" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
-  </iframe>
-</div>
-
-[:material-youtube: Visit our YouTube Channel for the full AP Precalculus video series](https://www.youtube.com/channel/UC1c2nUa4hYaSrwXKvjmlJIA){ .md-button .md-button--primary target="_blank" }
-
----
-
 ## Complete Course Roadmap
 
 | Unit       | Title                                                                                                      | Key Themes                                                                   | Status                      |
