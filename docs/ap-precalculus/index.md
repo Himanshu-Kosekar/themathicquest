@@ -5,7 +5,7 @@ description: Complete study guides, formulas, and FRQ walk-throughs for AP Preca
 
 # AP Precalculus
 
-Welcome to the **AP Precalculus** resource center. This course establishes foundational mastery of function behavior, algebraic transformations, rates of change, and mathematical modeling across four comprehensive units.
+This course establishes foundational mastery of function behavior, algebraic transformations, rates of change, and mathematical modeling across four comprehensive units.
 
 ---
 
