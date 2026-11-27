@@ -342,7 +342,7 @@
 }
 
 .roadmap-table table {
-  width: 50%;
+  width: 120%;
   table-layout: fixed; /* Enforces exact column widths */
 }
 
