@@ -24,9 +24,12 @@
 
 /* Side-by-Side Concept & Practice Video Grid */
 .video-grid {
+  --video-grid-gap: 2rem;          /* Horizontal gap between side-by-side videos */
+  --video-grid-mobile-gap: 1.5rem; /* Vertical gap when stacked on mobile */
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
+  gap: var(--video-grid-gap);
   margin: 1.25em 0;
 }
 
@@ -52,7 +55,7 @@
 @media screen and (max-width: 768px) {
   .video-grid {
     grid-template-columns: 1fr;
-    gap: 1.25rem;
+    gap: var(--video-grid-mobile-gap);
   }
 }
 
@@ -339,7 +342,7 @@
 }
 
 .roadmap-table table {
-  width: 100%;
+  width: 70%;
   table-layout: fixed; /* Enforces exact column widths */
 }
 
