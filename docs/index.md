@@ -19,13 +19,13 @@ description: Ultimate STEM study resource
 
     [:material-arrow-right: Explore AP Precalculus](ap-precalculus/index.md){ .md-button .md-button--primary }
 
-* :material-atom: **[AP Physics 1 Hub](ap-physics-1/index.md)**
+* :material-sigma: **[AP Calculus AB](ap-calculus-ab/index.md)** *(Coming Soon)*
 
     ---
 
-    Comprehensive mechanics, energy, momentum, rotational dynamics, and fluids.
+    Limits & continuity, differentiation, integration, and differential equations.
 
-    [:material-arrow-right: Explore AP Physics 1](ap-physics-1/index.md){ .md-button }
+    [:material-clock-outline: Coming Soon](ap-calculus-ab/index.md){ .md-button }
 
 </div>
 
@@ -79,4 +79,4 @@ Jump directly to any individual subtopic lesson page:
 ***
 
 !!! tip "Fast Search"
-Use the top search bar (press <kbd>S</kbd> or <kbd>/</kbd>) to search across formulas, theorems, and physics laws instantly.
+Use the top search bar (press <kbd>S</kbd> or <kbd>/</kbd>) to search across formulas, theorems, and study guides instantly.

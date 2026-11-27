@@ -1,6 +1,6 @@
 site_name: Mathic Quest
 site_url: https://themathicquest.com/
-site_description: High-yield STEM study guides, practice problems, and interactive resources for AP Precalculus, AP Physics 1, and beyond.
+site_description: High-yield STEM study guides, practice problems, and interactive resources for AP Precalculus, AP Calculus AB, and beyond.
 site_author: MathicQuest Team
 copyright: Copyright &copy; 2026 Mathic Quest
 
@@ -103,13 +103,4 @@ nav:
           - "2.8 Inverse Functions": ap-precalculus/unit-2/2.8-inverse-functions.md
       - "Unit 3: Trigonometric & Polar Functions": ap-precalculus/unit-3-trigonometric-polar.md
       - "Unit 4: Functions Involving Parameters, Vectors, & Matrices": ap-precalculus/unit-4-functions-parameters-vectors-matrices.md
-  - AP Physics 1:
-      - Overview: ap-physics-1/index.md
-      - "Unit 1: Kinematics": ap-physics-1/unit-1-kinematics.md
-      - "Unit 2: Force & Translational Dynamics": ap-physics-1/unit-2-force-translational-dynamics.md
-      - "Unit 3: Work, Energy, & Power": ap-physics-1/unit-3-work-energy-power.md
-      - "Unit 4: Linear Momentum": ap-physics-1/unit-4-linear-momentum.md
-      - "Unit 5: Torque & Rotational Dynamics": ap-physics-1/unit-5-torque-rotational-dynamics.md
-      - "Unit 6: Energy & Momentum of Rotating Systems": ap-physics-1/unit-6-energy-momentum-rotating-systems.md
-      - "Unit 7: Oscillations": ap-physics-1/unit-7-oscillations.md
-      - "Unit 8: Fluids": ap-physics-1/unit-8-fluids.md
+  - "AP Calculus AB (Coming Soon)": ap-calculus-ab/index.md

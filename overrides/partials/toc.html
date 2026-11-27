@@ -1,7 +1,8 @@
 {#-
   Custom Right Sidebar Navigation Partial
-  Replaces the default Table of Contents completely with collapsible Units & Subtopics navigation
+  Shows collapsible Units & Subtopics navigation only on the home page
 -#}
+{% if page.is_homepage %}
 <nav class="md-nav md-nav--secondary" aria-label="Units &amp; Subtopics">
   <div class="toc-subtopics-wrapper">
     <label class="md-nav__title toc-subtopics-heading">
@@ -13,8 +14,8 @@
 
     <div class="toc-subtopics-list">
       {% for course in nav.items if course.children %}
-        {% set course_match = course.active or ('ap-precalculus' in page.url and course.title == 'AP Precalculus') or ('ap-physics-1' in page.url and course.title == 'AP Physics 1') %}
-        {% if course_match or ('ap-precalculus' not in page.url and 'ap-physics-1' not in page.url and course.title == 'AP Precalculus') %}
+        {% set course_match = course.active or ('ap-precalculus' in page.url and course.title == 'AP Precalculus') %}
+        {% if course_match or ('ap-precalculus' not in page.url and course.title == 'AP Precalculus') %}
           <div class="toc-course-badge">{{ course.title }}</div>
           {% for unit in course.children %}
             {% if unit.title != "Overview" %}
@@ -54,3 +55,4 @@
     </div>
   </div>
 </nav>
+{% endif %}

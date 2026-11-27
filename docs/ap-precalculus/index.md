@@ -11,12 +11,12 @@ Welcome to the **AP Precalculus** resource center. This course establishes found
 
 ## Complete Course Roadmap
 
-| Unit       | Title                                                                                                      | Key Themes                                                                   | Status                      |
-|:----------:|:---------------------------------------------------------------------------------------------------------- |:---------------------------------------------------------------------------- |:---------------------------:|
-| **Unit 1** | **[Polynomial & Rational Functions](unit-1-polynomial-rational.md)**                                       | Rates of change, polynomial zeros, end behavior, asymptotes & holes          | Complete |
-| **Unit 2** | **[Exponential & Logarithmic Functions](unit-2-exponential-logarithmic.md)**                               | Geometric sequences, continuous growth $e^{kt}$, log laws, semi-log plots    | Complete |
-| **Unit 3** | **[Trigonometric & Polar Functions](unit-3-trigonometric-polar.md)**                                       | Radian measure, unit circle, sinusoidal modeling, inverse trig, polar curves | Complete |
-| **Unit 4** | **[Functions Involving Parameters, Vectors, & Matrices](unit-4-functions-parameters-vectors-matrices.md)** | Parametric motion, conic sections, 2D vectors, matrix transformations        | Complete |
+| Unit       | Title                                                                                                      | Sub-Topics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|:----------:|:---------------------------------------------------------------------------------------------------------- |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Unit 1** | **[Polynomial & Rational Functions](unit-1-polynomial-rational.md)**                                       | [1.1 Change in Tandem](unit-1/1.1-change-in-tandem.md)<br>[1.2 Rates of Change](unit-1/1.2-rates-of-change.md)<br>[1.3 Rates of Change in Linear & Quadratic](unit-1/1.3-rates-of-change-linear-quadratic.md)<br>[1.4 Polynomial Rates of Change](unit-1/1.4-polynomial-rates-of-change.md)<br>[1.5 Complex Zeros](unit-1/1.5-complex-zeros.md)<br>[1.6 Polynomial End Behavior](unit-1/1.6-polynomial-end-behavior.md)<br>[1.7 Rational End Behavior](unit-1/1.7-rational-end-behavior.md)<br>[1.8 Rational Zeros](unit-1/1.8-rational-zeros.md)<br>[1.9 Vertical Asymptotes](unit-1/1.9-rational-vertical-asymptotes.md)<br>[1.10 Holes in Rational Functions](unit-1/1.10-rational-holes.md)<br>[1.11 Equivalent Representations](unit-1/1.11-equivalent-representations.md)<br>[1.12 Transformations of Functions](unit-1/1.12-transformations-of-functions.md)<br>[1.13 Model Selection & Assumptions](unit-1/1.13-model-selection-articulation.md)<br>[1.14 Model Construction & Application](unit-1/1.14-model-construction-application.md) |
+| **Unit 2** | **[Exponential & Logarithmic Functions](unit-2-exponential-logarithmic.md)**                               | [2.1 Arithmetic & Geometric Sequences](unit-2/2.1-change-arithmetic-geometric-sequences.md)<br>[2.2 Linear & Exponential Changes](unit-2/2.2-change-linear-exponential-functions.md)<br>[2.3 Exponential Functions](unit-2/2.3-exponential-functions.md)<br>[2.4 Exponential Manipulation](unit-2/2.4-exponential-function-manipulation.md)<br>[2.5 Context & Data Modeling](unit-2/2.5-exponential-context-data-modeling.md)<br>[2.6 Competing Function Models](unit-2/2.6-competing-function-models.md)<br>[2.7 Composition of Functions](unit-2/2.7-composition-of-functions.md)<br>[2.8 Inverse Functions](unit-2/2.8-inverse-functions.md) |
+| **Unit 3** | **[Trigonometric & Polar Functions](unit-3-trigonometric-polar.md)**                                       | [Unit 3 Study Guide](unit-3-trigonometric-polar.md) *(subtopics coming soon)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Unit 4** | **[Functions Involving Parameters, Vectors, & Matrices](unit-4-functions-parameters-vectors-matrices.md)** | [Unit 4 Study Guide](unit-4-functions-parameters-vectors-matrices.md) *(subtopics coming soon)*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 ---
 
@@ -26,35 +26,35 @@ Select any topic below for dedicated concept explanations, embedded YouTube lect
 
 === "Unit 1: Polynomial & Rational Functions (1.1 – 1.14)"
 
-    | Topic | Title | Video Lesson | Practice Problems | Dedicated Study Guide |
-    | :---: | :--- | :---: | :---: | :---: |
-    | **1.1** | **[Change in Tandem](unit-1/1.1-change-in-tandem.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.1 Study Page](unit-1/1.1-change-in-tandem.md) |
-    | **1.2** | **[Rates of Change](unit-1/1.2-rates-of-change.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.2 Study Page](unit-1/1.2-rates-of-change.md) |
-    | **1.3** | **[Rates of Change in Linear & Quadratic Functions](unit-1/1.3-rates-of-change-linear-quadratic.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.3 Study Page](unit-1/1.3-rates-of-change-linear-quadratic.md) |
-    | **1.4** | **[Polynomial Functions & Rates of Change](unit-1/1.4-polynomial-rates-of-change.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.4 Study Page](unit-1/1.4-polynomial-rates-of-change.md) |
-    | **1.5** | **[Polynomial Functions & Complex Zeros](unit-1/1.5-complex-zeros.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.5 Study Page](unit-1/1.5-complex-zeros.md) |
-    | **1.6** | **[Polynomial Functions & End Behavior](unit-1/1.6-polynomial-end-behavior.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.6 Study Page](unit-1/1.6-polynomial-end-behavior.md) |
-    | **1.7** | **[Rational Functions & End Behavior](unit-1/1.7-rational-end-behavior.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.7 Study Page](unit-1/1.7-rational-end-behavior.md) |
-    | **1.8** | **[Rational Functions & Zeros](unit-1/1.8-rational-zeros.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.8 Study Page](unit-1/1.8-rational-zeros.md) |
-    | **1.9** | **[Rational Functions & Vertical Asymptotes](unit-1/1.9-rational-vertical-asymptotes.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.9 Study Page](unit-1/1.9-rational-vertical-asymptotes.md) |
-    | **1.10** | **[Rational Functions & Holes](unit-1/1.10-rational-holes.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.10 Study Page](unit-1/1.10-rational-holes.md) |
-    | **1.11** | **[Equivalent Representations of Functions](unit-1/1.11-equivalent-representations.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.11 Study Page](unit-1/1.11-equivalent-representations.md) |
-    | **1.12** | **[Transformations of Functions](unit-1/1.12-transformations-of-functions.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.12 Study Page](unit-1/1.12-transformations-of-functions.md) |
-    | **1.13** | **[Function Model Selection & Articulation](unit-1/1.13-model-selection-articulation.md)** | :material-youtube: | — | [:material-file-document: 1.13 Study Page](unit-1/1.13-model-selection-articulation.md) |
-    | **1.14** | **[Function Model Construction & Application](unit-1/1.14-model-construction-application.md)** | :material-youtube: | — | [:material-file-document: 1.14 Study Page](unit-1/1.14-model-construction-application.md) |
+    | Topic | Title |
+    | :---: | :--- |
+    | **1.1** | **[Change in Tandem](unit-1/1.1-change-in-tandem.md)** |
+    | **1.2** | **[Rates of Change](unit-1/1.2-rates-of-change.md)** |
+    | **1.3** | **[Rates of Change in Linear & Quadratic Functions](unit-1/1.3-rates-of-change-linear-quadratic.md)** |
+    | **1.4** | **[Polynomial Functions & Rates of Change](unit-1/1.4-polynomial-rates-of-change.md)** |
+    | **1.5** | **[Polynomial Functions & Complex Zeros](unit-1/1.5-complex-zeros.md)** |
+    | **1.6** | **[Polynomial Functions & End Behavior](unit-1/1.6-polynomial-end-behavior.md)** |
+    | **1.7** | **[Rational Functions & End Behavior](unit-1/1.7-rational-end-behavior.md)** |
+    | **1.8** | **[Rational Functions & Zeros](unit-1/1.8-rational-zeros.md)** |
+    | **1.9** | **[Rational Functions & Vertical Asymptotes](unit-1/1.9-rational-vertical-asymptotes.md)** |
+    | **1.10** | **[Rational Functions & Holes](unit-1/1.10-rational-holes.md)** |
+    | **1.11** | **[Equivalent Representations of Functions](unit-1/1.11-equivalent-representations.md)** |
+    | **1.12** | **[Transformations of Functions](unit-1/1.12-transformations-of-functions.md)** |
+    | **1.13** | **[Function Model Selection & Articulation](unit-1/1.13-model-selection-articulation.md)** |
+    | **1.14** | **[Function Model Construction & Application](unit-1/1.14-model-construction-application.md)** |
 
 === "Unit 2: Exponential & Logarithmic Functions (2.1 – 2.8)"
 
-    | Topic | Title | Video Lesson | Practice Problems | Dedicated Study Guide |
-    | :---: | :--- | :---: | :---: | :---: |
-    | **2.1** | **[Change in Arithmetic & Geometric Sequences](unit-2/2.1-change-arithmetic-geometric-sequences.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.1 Study Page](unit-2/2.1-change-arithmetic-geometric-sequences.md) |
-    | **2.2** | **[Change in Linear & Exponential Functions](unit-2/2.2-change-linear-exponential-functions.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.2 Study Page](unit-2/2.2-change-linear-exponential-functions.md) |
-    | **2.3** | **[Exponential Functions](unit-2/2.3-exponential-functions.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.3 Study Page](unit-2/2.3-exponential-functions.md) |
-    | **2.4** | **[Exponential Function Manipulation](unit-2/2.4-exponential-function-manipulation.md)** | :material-youtube: | :material-youtube: (Alt) | [:material-file-document: 2.4 Study Page](unit-2/2.4-exponential-function-manipulation.md) |
-    | **2.5** | **[Exponential Context & Data Modeling](unit-2/2.5-exponential-context-data-modeling.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.5 Study Page](unit-2/2.5-exponential-context-data-modeling.md) |
-    | **2.6** | **[Competing Function Models](unit-2/2.6-competing-function-models.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.6 Study Page](unit-2/2.6-competing-function-models.md) |
-    | **2.7** | **[Composition of Functions](unit-2/2.7-composition-of-functions.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.7 Study Page](unit-2/2.7-composition-of-functions.md) |
-    | **2.8** | **[Inverse Functions](unit-2/2.8-inverse-functions.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.8 Study Page](unit-2/2.8-inverse-functions.md) |
+    | Topic | Title |
+    | :---: | :--- |
+    | **2.1** | **[Change in Arithmetic & Geometric Sequences](unit-2/2.1-change-arithmetic-geometric-sequences.md)** |
+    | **2.2** | **[Change in Linear & Exponential Functions](unit-2/2.2-change-linear-exponential-functions.md)** |
+    | **2.3** | **[Exponential Functions](unit-2/2.3-exponential-functions.md)** |
+    | **2.4** | **[Exponential Function Manipulation](unit-2/2.4-exponential-function-manipulation.md)** |
+    | **2.5** | **[Exponential Context & Data Modeling](unit-2/2.5-exponential-context-data-modeling.md)** |
+    | **2.6** | **[Competing Function Models](unit-2/2.6-competing-function-models.md)** |
+    | **2.7** | **[Composition of Functions](unit-2/2.7-composition-of-functions.md)** |
+    | **2.8** | **[Inverse Functions](unit-2/2.8-inverse-functions.md)** |
 
 ---
 
