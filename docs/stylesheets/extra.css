@@ -342,7 +342,7 @@
 }
 
 .roadmap-table table {
-  width: 70%;
+  width: 50%;
   table-layout: fixed; /* Enforces exact column widths */
 }
 
@@ -351,7 +351,7 @@
 .roadmap-table table td {
   font-size: 0.75rem;
   line-height: 1.5;
-  padding: 0.65rem var(--roadmap-col-gap) !important;
+  padding: 0.25rem var(--roadmap-col-gap) !important;
 }
 
 /* Vertical spacing between stacked subtopics in Column 3 */
