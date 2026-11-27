@@ -324,3 +324,18 @@
 [data-md-color-scheme="slate"] .hero-title {
   color: #ffffff !important;
 }
+
+/* ==========================================================================
+   Clickable Topic Study Guide Table Rows
+   ========================================================================== */
+
+.md-typeset table tbody tr:has(a[href*="unit-1/"]),
+.md-typeset table tbody tr:has(a[href*="unit-2/"]) {
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.md-typeset table tbody tr:has(a[href*="unit-1/"]):hover,
+.md-typeset table tbody tr:has(a[href*="unit-2/"]):hover {
+  background-color: rgba(0, 229, 255, 0.08);
+}

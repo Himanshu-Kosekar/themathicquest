@@ -45,33 +45,33 @@ Select any topic below for dedicated concept explanations, embedded YouTube lect
 
     | Topic | Title | Video Lesson | Practice Problems | Dedicated Study Guide |
     | :---: | :--- | :---: | :---: | :---: |
-    | **1.1** | Change in Tandem | :material-youtube: | :material-help-circle: | [:material-file-document: 1.1 Study Page](unit-1/1.1-change-in-tandem.md) |
-    | **1.2** | Rates of Change | :material-youtube: | :material-help-circle: | [:material-file-document: 1.2 Study Page](unit-1/1.2-rates-of-change.md) |
-    | **1.3** | Rates of Change in Linear & Quadratic Functions | :material-youtube: | :material-help-circle: | [:material-file-document: 1.3 Study Page](unit-1/1.3-rates-of-change-linear-quadratic.md) |
-    | **1.4** | Polynomial Functions & Rates of Change | :material-youtube: | :material-help-circle: | [:material-file-document: 1.4 Study Page](unit-1/1.4-polynomial-rates-of-change.md) |
-    | **1.5** | Polynomial Functions & Complex Zeros | :material-youtube: | :material-help-circle: | [:material-file-document: 1.5 Study Page](unit-1/1.5-complex-zeros.md) |
-    | **1.6** | Polynomial Functions & End Behavior | :material-youtube: | :material-help-circle: | [:material-file-document: 1.6 Study Page](unit-1/1.6-polynomial-end-behavior.md) |
-    | **1.7** | Rational Functions & End Behavior | :material-youtube: | :material-help-circle: | [:material-file-document: 1.7 Study Page](unit-1/1.7-rational-end-behavior.md) |
-    | **1.8** | Rational Functions & Zeros | :material-youtube: | :material-help-circle: | [:material-file-document: 1.8 Study Page](unit-1/1.8-rational-zeros.md) |
-    | **1.9** | Rational Functions & Vertical Asymptotes | :material-youtube: | :material-help-circle: | [:material-file-document: 1.9 Study Page](unit-1/1.9-rational-vertical-asymptotes.md) |
-    | **1.10** | Rational Functions & Holes | :material-youtube: | :material-help-circle: | [:material-file-document: 1.10 Study Page](unit-1/1.10-rational-holes.md) |
-    | **1.11** | Equivalent Representations of Functions | :material-youtube: | :material-help-circle: | [:material-file-document: 1.11 Study Page](unit-1/1.11-equivalent-representations.md) |
-    | **1.12** | Transformations of Functions | :material-youtube: | :material-help-circle: | [:material-file-document: 1.12 Study Page](unit-1/1.12-transformations-of-functions.md) |
-    | **1.13** | Function Model Selection & Articulation | :material-youtube: | — | [:material-file-document: 1.13 Study Page](unit-1/1.13-model-selection-articulation.md) |
-    | **1.14** | Function Model Construction & Application | :material-youtube: | — | [:material-file-document: 1.14 Study Page](unit-1/1.14-model-construction-application.md) |
+    | **1.1** | **[Change in Tandem](unit-1/1.1-change-in-tandem.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.1 Study Page](unit-1/1.1-change-in-tandem.md) |
+    | **1.2** | **[Rates of Change](unit-1/1.2-rates-of-change.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.2 Study Page](unit-1/1.2-rates-of-change.md) |
+    | **1.3** | **[Rates of Change in Linear & Quadratic Functions](unit-1/1.3-rates-of-change-linear-quadratic.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.3 Study Page](unit-1/1.3-rates-of-change-linear-quadratic.md) |
+    | **1.4** | **[Polynomial Functions & Rates of Change](unit-1/1.4-polynomial-rates-of-change.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.4 Study Page](unit-1/1.4-polynomial-rates-of-change.md) |
+    | **1.5** | **[Polynomial Functions & Complex Zeros](unit-1/1.5-complex-zeros.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.5 Study Page](unit-1/1.5-complex-zeros.md) |
+    | **1.6** | **[Polynomial Functions & End Behavior](unit-1/1.6-polynomial-end-behavior.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.6 Study Page](unit-1/1.6-polynomial-end-behavior.md) |
+    | **1.7** | **[Rational Functions & End Behavior](unit-1/1.7-rational-end-behavior.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.7 Study Page](unit-1/1.7-rational-end-behavior.md) |
+    | **1.8** | **[Rational Functions & Zeros](unit-1/1.8-rational-zeros.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.8 Study Page](unit-1/1.8-rational-zeros.md) |
+    | **1.9** | **[Rational Functions & Vertical Asymptotes](unit-1/1.9-rational-vertical-asymptotes.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.9 Study Page](unit-1/1.9-rational-vertical-asymptotes.md) |
+    | **1.10** | **[Rational Functions & Holes](unit-1/1.10-rational-holes.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.10 Study Page](unit-1/1.10-rational-holes.md) |
+    | **1.11** | **[Equivalent Representations of Functions](unit-1/1.11-equivalent-representations.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.11 Study Page](unit-1/1.11-equivalent-representations.md) |
+    | **1.12** | **[Transformations of Functions](unit-1/1.12-transformations-of-functions.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 1.12 Study Page](unit-1/1.12-transformations-of-functions.md) |
+    | **1.13** | **[Function Model Selection & Articulation](unit-1/1.13-model-selection-articulation.md)** | :material-youtube: | — | [:material-file-document: 1.13 Study Page](unit-1/1.13-model-selection-articulation.md) |
+    | **1.14** | **[Function Model Construction & Application](unit-1/1.14-model-construction-application.md)** | :material-youtube: | — | [:material-file-document: 1.14 Study Page](unit-1/1.14-model-construction-application.md) |
 
 === "Unit 2: Exponential & Logarithmic Functions (2.1 – 2.8)"
 
     | Topic | Title | Video Lesson | Practice Problems | Dedicated Study Guide |
     | :---: | :--- | :---: | :---: | :---: |
-    | **2.1** | Change in Arithmetic & Geometric Sequences | :material-youtube: | :material-help-circle: | [:material-file-document: 2.1 Study Page](unit-2/2.1-change-arithmetic-geometric-sequences.md) |
-    | **2.2** | Change in Linear & Exponential Functions | :material-youtube: | :material-help-circle: | [:material-file-document: 2.2 Study Page](unit-2/2.2-change-linear-exponential-functions.md) |
-    | **2.3** | Exponential Functions | :material-youtube: | :material-help-circle: | [:material-file-document: 2.3 Study Page](unit-2/2.3-exponential-functions.md) |
-    | **2.4** | Exponential Function Manipulation | :material-youtube: | :material-youtube: (Alt) | [:material-file-document: 2.4 Study Page](unit-2/2.4-exponential-function-manipulation.md) |
-    | **2.5** | Exponential Context & Data Modeling | :material-youtube: | :material-help-circle: | [:material-file-document: 2.5 Study Page](unit-2/2.5-exponential-context-data-modeling.md) |
-    | **2.6** | Competing Function Models | :material-youtube: | :material-help-circle: | [:material-file-document: 2.6 Study Page](unit-2/2.6-competing-function-models.md) |
-    | **2.7** | Composition of Functions | :material-youtube: | :material-help-circle: | [:material-file-document: 2.7 Study Page](unit-2/2.7-composition-of-functions.md) |
-    | **2.8** | Inverse Functions | :material-youtube: | :material-help-circle: | [:material-file-document: 2.8 Study Page](unit-2/2.8-inverse-functions.md) |
+    | **2.1** | **[Change in Arithmetic & Geometric Sequences](unit-2/2.1-change-arithmetic-geometric-sequences.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.1 Study Page](unit-2/2.1-change-arithmetic-geometric-sequences.md) |
+    | **2.2** | **[Change in Linear & Exponential Functions](unit-2/2.2-change-linear-exponential-functions.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.2 Study Page](unit-2/2.2-change-linear-exponential-functions.md) |
+    | **2.3** | **[Exponential Functions](unit-2/2.3-exponential-functions.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.3 Study Page](unit-2/2.3-exponential-functions.md) |
+    | **2.4** | **[Exponential Function Manipulation](unit-2/2.4-exponential-function-manipulation.md)** | :material-youtube: | :material-youtube: (Alt) | [:material-file-document: 2.4 Study Page](unit-2/2.4-exponential-function-manipulation.md) |
+    | **2.5** | **[Exponential Context & Data Modeling](unit-2/2.5-exponential-context-data-modeling.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.5 Study Page](unit-2/2.5-exponential-context-data-modeling.md) |
+    | **2.6** | **[Competing Function Models](unit-2/2.6-competing-function-models.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.6 Study Page](unit-2/2.6-competing-function-models.md) |
+    | **2.7** | **[Composition of Functions](unit-2/2.7-composition-of-functions.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.7 Study Page](unit-2/2.7-composition-of-functions.md) |
+    | **2.8** | **[Inverse Functions](unit-2/2.8-inverse-functions.md)** | :material-youtube: | :material-help-circle: | [:material-file-document: 2.8 Study Page](unit-2/2.8-inverse-functions.md) |
 
 ---
 
