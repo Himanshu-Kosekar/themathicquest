@@ -326,16 +326,55 @@
 }
 
 /* ==========================================================================
-   Clickable Topic Study Guide Table Rows
+   AP Precalculus Course Roadmap Table Styling
    ========================================================================== */
 
-.md-typeset table tbody tr:has(a[href*="unit-1/"]),
-.md-typeset table tbody tr:has(a[href*="unit-2/"]) {
-  cursor: pointer;
-  transition: background-color 0.15s ease;
+.roadmap-table {
+  --roadmap-col-gap: 1rem;        /* Horizontal spacing inside/between columns */
+  --roadmap-subtopic-gap: 0.35rem; /* Vertical spacing between stacked subtopics */
 }
 
-.md-typeset table tbody tr:has(a[href*="unit-1/"]):hover,
-.md-typeset table tbody tr:has(a[href*="unit-2/"]):hover {
-  background-color: rgba(0, 229, 255, 0.08);
+.roadmap-table .md-typeset__table {
+  width: 100%;
+}
+
+.roadmap-table table {
+  width: 100%;
+  table-layout: fixed; /* Enforces exact column widths */
+}
+
+/* Font size, line spacing, and column spacing */
+.roadmap-table table th,
+.roadmap-table table td {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  padding: 0.65rem var(--roadmap-col-gap) !important;
+}
+
+/* Vertical spacing between stacked subtopics in Column 3 */
+.roadmap-table table td:nth-child(3) a {
+  display: inline-block;
+  margin-bottom: var(--roadmap-subtopic-gap);
+}
+
+.roadmap-table table td:nth-child(3) a:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Column 1: Unit */
+.roadmap-table table th:nth-child(1),
+.roadmap-table table td:nth-child(1) {
+  width: 14%;
+}
+
+/* Column 2: Title */
+.roadmap-table table th:nth-child(2),
+.roadmap-table table td:nth-child(2) {
+  width: 32%;
+}
+
+/* Column 3: Sub-Topics */
+.roadmap-table table th:nth-child(3),
+.roadmap-table table td:nth-child(3) {
+  width: 54%;
 }
