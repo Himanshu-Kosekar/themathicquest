@@ -91,7 +91,7 @@ When an internal mechanism alters mass distribution (e.g., a spinning figure ska
 
 ---
 
-## 📝 Practice Problem & Solution
+## Practice Problem & Solution
 
 ???+ question "Practice Problem 6.1: Point Mass Striking a Pivoted Rod"
     A uniform thin rod of mass $M = 3.0\,\text{kg}$ and length $L = 0.80\,\text{m}$ is pivoted at its top end about a frictionless horizontal pin ($I_{\text{rod}} = \frac{1}{3}ML^2$). The rod hangs vertically at rest.

@@ -9,7 +9,7 @@ Unit 1 explores how quantities change in tandem, the rate of change of functions
 
 ---
 
-## 📺 Unit Video Lesson & Review
+## Unit Video Lesson & Review
 
 Follow along with the complete conceptual walkthrough and practice problems from our YouTube channel:
 
@@ -96,7 +96,7 @@ $$\lim_{x \to \pm\infty} \frac{a_n x^n + \dots}{b_m x^m + \dots} = \begin{cases}
 
 ---
 
-## 📝 Practice Problem & Solution
+## Practice Problem & Solution
 
 ???+ question "Practice Problem 1.1: Rational Function Analysis"
     Consider the rational function:

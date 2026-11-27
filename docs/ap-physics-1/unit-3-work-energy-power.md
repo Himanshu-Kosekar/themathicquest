@@ -89,7 +89,7 @@ $$P = \vec{F} \cdot \vec{v} = F v \cos\theta$$
 
 ---
 
-## 📝 Practice Problem & Solution
+## Practice Problem & Solution
 
 ???+ question "Practice Problem 3.1: Spring-Launched Cart with Friction"
     A cart of mass $m = 2.0\,\text{kg}$ is pushed against a horizontal spring of spring constant $k = 800\,\text{N/m}$, compressing it by $x = 0.20\,\text{m}$.

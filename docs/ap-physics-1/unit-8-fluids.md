@@ -103,7 +103,7 @@ $$v = \sqrt{2gh}$$
 
 ---
 
-## 📝 Practice Problem & Solution
+## Practice Problem & Solution
 
 ???+ question "Practice Problem 8.1: Buoyancy and Apparent Weight"
     A solid metal sculpture of unknown composition has a mass of $m = 12.0\,\text{kg}$. When the sculpture is completely submerged in a vat of water ($\rho_{\text{water}} = 1{,}000\,\text{kg/m}^3$), a spring scale attached to the sculpture reads an apparent weight of $F_{\text{scale}} = 75.0\,\text{N}$. Take $g = 10\,\text{m/s}^2$.

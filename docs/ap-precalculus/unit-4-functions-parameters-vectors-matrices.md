@@ -9,7 +9,7 @@ Unit 4 extends analytical geometry and functional relationships into multidimens
 
 ---
 
-## 📺 Video Lessons & Channel Series
+## Video Lessons & Channel Series
 
 Follow along with the AP Precalculus video series from our YouTube channel:
 
@@ -103,7 +103,7 @@ $$\text{Horizontal & Vertical Scaling}: \begin{pmatrix} k_x & 0 \\ 0 & k_y \end{
 
 ---
 
-## 📝 Practice Problem & Solution
+## Practice Problem & Solution
 
 ???+ question "Practice Problem 4.1: Vector Orthogonality & Matrix Transformation"
     Let vectors $\vec{u} = \langle 3, -4 \rangle$ and $\vec{v} = \langle 8, k \rangle$.

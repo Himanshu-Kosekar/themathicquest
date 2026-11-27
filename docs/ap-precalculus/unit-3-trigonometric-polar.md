@@ -9,7 +9,7 @@ Unit 3 examines periodic motion and angular displacement, transitioning from geo
 
 ---
 
-## 📺 Video Lessons & Channel Series
+## Video Lessons & Channel Series
 
 Follow along with the AP Precalculus video series from our YouTube channel:
 
@@ -118,7 +118,7 @@ $$z^n = [r(\cos\theta + i\sin\theta)]^n = r^n(\cos(n\theta) + i\sin(n\theta))$$
 
 ---
 
-## 📝 Practice Problem & Solution
+## Practice Problem & Solution
 
 ???+ question "Practice Problem 3.1: Modeling Periodic Ferris Wheel Motion"
     A giant Ferris wheel with a diameter of $50\,\text{m}$ completes one full counterclockwise revolution every $4\,\text{minutes}$. Passengers board the wheel at the lowest point, which is $2\,\text{m}$ above the ground.

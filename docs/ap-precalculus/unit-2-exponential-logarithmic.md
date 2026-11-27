@@ -9,7 +9,7 @@ Unit 2 explores processes characterized by proportional and multiplicative chang
 
 ---
 
-## 📺 Unit Video Lesson & Review
+## Unit Video Lesson & Review
 
 Follow along with the complete conceptual walkthrough and practice problems from our YouTube channel:
 
@@ -128,7 +128,7 @@ This matches standard slope-intercept form $Y = m x + C$:
 
 ---
 
-## 📝 Practice Problem & Solution
+## Practice Problem & Solution
 
 ???+ question "Practice Problem 2.1: Continuous Modeling & Semi-Log Linearization"
     A biological culture of bacteria is treated with an antibiotic. The population $P(t)$ is modeled by an exponential decay function $P(t) = P_0 e^{-kt}$, where $t$ is measured in hours.

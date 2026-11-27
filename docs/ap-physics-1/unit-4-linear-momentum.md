@@ -60,10 +60,10 @@ Total momentum is conserved in **all collisions** within an isolated system. Col
 
 | Collision Type | Momentum Conserved? | Kinetic Energy Conserved? | Key Physical Characteristics |
 | :--- | :---: | :---: | :--- |
-| **Elastic** | :white_check_mark: Yes | :white_check_mark: Yes ($K_i = K_f$) | Ideal atomic collisions, bouncy magnetic gliders |
-| **Inelastic** | :white_check_mark: Yes | :x: No ($K_f < K_i$) | Energy transformed into thermal, sound, deformation |
-| **Completely Inelastic** | :white_check_mark: Yes | :x: Maximum $K$ loss | Bodies stick together and move with identical final velocity $v_f$ |
-| **Explosion / Separation** | :white_check_mark: Yes | :x: $K_f > K_i$ | Chemical/stored elastic potential energy converts to kinetic |
+| **Elastic** | Yes | Yes ($K_i = K_f$) | Ideal atomic collisions, bouncy magnetic gliders |
+| **Inelastic** | Yes | No ($K_f < K_i$) | Energy transformed into thermal, sound, deformation |
+| **Completely Inelastic** | Yes | Maximum $K$ loss | Bodies stick together and move with identical final velocity $v_f$ |
+| **Explosion / Separation** | Yes | $K_f > K_i$ | Chemical/stored elastic potential energy converts to kinetic |
 
 ### Completely Inelastic Collision Formula
 When two masses collide and stick together:
@@ -85,7 +85,7 @@ $$m_1 v_{1i} + m_2 v_{2i} = (m_1 + m_2) v_f \implies v_f = \frac{m_1 v_{1i} + m_
 
 ---
 
-## 📝 Practice Problem & Solution
+## Practice Problem & Solution
 
 ???+ question "Practice Problem 4.1: The Ballistic Pendulum"
     In a classic laboratory ballistic pendulum experiment, a wooden block of mass $M = 1.95\,\text{kg}$ is suspended from lightweight cords of length $L = 1.2\,\text{m}$. A bullet of mass $m = 0.05\,\text{kg}$ is fired horizontally with speed $v_0$ into the block, embedding itself completely.

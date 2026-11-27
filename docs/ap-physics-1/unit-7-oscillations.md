@@ -92,7 +92,7 @@ $$\frac{1}{2} m v_{\text{max}}^2 = \frac{1}{2} k A^2 \implies v_{\text{max}} = A
 
 ---
 
-## 📝 Practice Problem & Solution
+## Practice Problem & Solution
 
 ???+ question "Practice Problem 7.1: Energy and Kinematics of a Spring Oscillator"
     A block of mass $m = 0.50\,\text{kg}$ on a frictionless horizontal surface is attached to a spring with $k = 200\,\text{N/m}$. The block is pulled to $x = +0.10\,\text{m}$ ($10\,\text{cm}$) and released from rest at $t = 0$.

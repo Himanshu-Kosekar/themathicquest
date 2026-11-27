@@ -47,7 +47,7 @@ v_{0y} &= v_0 \sin\theta, & y(t) &= y_0 + (v_0 \sin\theta) t - \frac{1}{2} g t^2
 
 ---
 
-## 📝 Practice Problem & Solution
+## Practice Problem & Solution
 
 ???+ question "Practice Problem 1.1: Cliff Projectile Motion"
     A rescue ball is launched from the edge of a cliff of height $H = 45\,\text{m}$ with an initial velocity $v_0 = 20\,\text{m/s}$ at an angle of $\theta = 30^\circ$ above the horizontal. Assume $g = 10\,\text{m/s}^2$ and negligible air resistance.

@@ -90,7 +90,7 @@ $$\sum \tau_{\text{net}} = I \alpha$$
 
 ---
 
-## 📝 Practice Problem & Solution
+## Practice Problem & Solution
 
 ???+ question "Practice Problem 5.1: Massive Pulley with Hanging Mass"
     A uniform solid disk pulley of mass $M = 4.0\,\text{kg}$ and radius $R = 0.20\,\text{m}$ ($I = \frac{1}{2}MR^2$) is mounted on a frictionless horizontal axle. A light string wrapped around the perimeter of the pulley is attached to a hanging block of mass $m = 2.0\,\text{kg}$.

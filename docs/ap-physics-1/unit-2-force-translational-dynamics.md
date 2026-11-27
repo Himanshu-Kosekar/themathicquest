@@ -90,7 +90,7 @@ $$g = G \frac{M}{R^2}$$
 
 ---
 
-## 📝 Practice Problem & Solution
+## Practice Problem & Solution
 
 ???+ question "Practice Problem 2.1: Block on an Incline with Friction"
     A crate of mass $m = 10\,\text{kg}$ is placed on an incline tilted at an angle of $\theta = 37^\circ$ above the horizontal ($\sin 37^\circ \approx 0.60$, $\cos 37^\circ \approx 0.80$). The coefficients of friction between the crate and the incline are $\mu_s = 0.50$ and $\mu_k = 0.30$. Take $g = 10\,\text{m/s}^2$.

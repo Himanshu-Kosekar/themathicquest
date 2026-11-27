@@ -4,25 +4,6 @@ description: Ultimate STEM study resource
 ---
 # Welcome to Mathic Quest ! {: .hero-title }
 
-<p style="color: cyan; font-size: 13px; font-weight: 500; margin-top: -0.8rem; margin-bottom: 0.4rem;">
-    ⚠️ This website is currently under construction
-</p>
-
-### Featured Lesson
-
-<div class="video-wrapper">
-  <iframe 
-    src="https://www.youtube-nocookie.com/embed/GtEK5qU0wv4?rel=0&modestbranding=1" 
-    title="Featured Lesson - Mathic Quest" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
-  </iframe>
-</div>
-
-
-
-***
-
 ## Featured Courses
 
 <div class="grid cards" markdown>
@@ -50,7 +31,20 @@ description: Ultimate STEM study resource
 
 ***
 
-## 🚀 Quick Access: AP Precalculus Video Lessons
+### Featured Lesson
+
+<div class="video-wrapper">
+  <iframe 
+    src="https://www.youtube-nocookie.com/embed/GtEK5qU0wv4?rel=0&modestbranding=1" 
+    title="Featured Lesson - Mathic Quest" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+***
+
+## Quick Access: AP Precalculus Video Lessons
 
 Jump directly to any individual subtopic lesson page:
 
