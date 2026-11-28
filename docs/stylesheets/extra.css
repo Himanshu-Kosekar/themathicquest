@@ -452,7 +452,7 @@
 
   .md-typeset .grid.cards > ul > li {
     display: grid;
-    grid-template-columns: minmax(12rem, 1fr) auto;
+    grid-template-columns: 1fr 20rem;
     column-gap: 2rem;
     align-items: start;
   }
@@ -472,7 +472,6 @@
     grid-column: 2;
     justify-self: end;
     width: 100%;
-    max-width: 26rem;
   }
 
   .md-typeset .grid.cards > ul > li > p:nth-of-type(2) {
