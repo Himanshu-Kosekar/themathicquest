@@ -1,25 +1,32 @@
 ---
-title: Mathic Quest
+title: The Math Legends
 description: Ultimate STEM study resource
+hide:
+  - navigation
+  - toc
 ---
-# Welcome to Mathic Quest ! {: .hero-title }
+![Mathic Quest Banner](assets/banner.png){ .home-banner }
 
-## Featured Courses
+***
+
+## Featured Courses {: style="text-align: center;" }
 
 <div class="grid cards" markdown>
 
-* :material-function: **[AP Precalculus Hub](ap-precalculus/index.md)**
+* **[AP Precalculus](ap-precalculus/index.md)**
 
     ---
 
     Full course coverage with dedicated video lessons:
-    - **Unit 1 (1.1 – 1.14):** Polynomial & Rational Functions
-    - **Unit 2 (2.1 – 2.8):** Exponential & Logarithmic Functions
-    - **Unit 3 & 4:** Trigonometric, Polar, Vectors & Matrices
+
+    - **Unit 1:** Polynomial & Rational Functions
+    - **Unit 2:** Exponential & Logarithmic Functions
+    - **Unit 3:** Trigonometric &Polar Functions
+    - **Unit 4:** Vectors & Matrices
 
     [:material-arrow-right: Explore AP Precalculus](ap-precalculus/index.md){ .md-button .md-button--primary }
 
-* :material-sigma: **[AP Calculus AB](ap-calculus-ab/index.md)** *(Coming Soon)*
+* **[AP Calculus AB](ap-calculus-ab/index.md)**
 
     ---
 

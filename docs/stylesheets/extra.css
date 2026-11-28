@@ -405,8 +405,34 @@
 }
 
 /* ==========================================================================
-   Featured Courses Card Borders
+   Featured Courses Card Layout & Borders
    ========================================================================== */
+
+.md-typeset .grid.cards {
+  --course-cards-width: 60%;                    /* Course boxes width */
+  --hub-title-size: 24px;                       /* Fixed px size (independent of window size) */
+  --hub-title-color-light: #00007e;             /* Hub title color (light mode) */
+  --hub-title-color-dark: #eeeeee;              /* Hub title color (dark mode) */
+
+  grid-template-columns: 1fr !important; /* Stack course cards one per row */
+  width: 100%;
+  margin: 1em auto !important; /* Center the course boxes on the page */
+}
+
+.md-typeset .grid.cards > ul > li > :first-child {
+  padding-left: 1.5rem; /* Adjust left padding for AP Precalculus & AP Calculus AB */
+}
+
+.md-typeset .grid.cards > ul > li > :first-child,
+.md-typeset .grid.cards > ul > li > :first-child a {
+  font-size: var(--hub-title-size);
+  color: var(--hub-title-color-light);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li > :first-child,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li > :first-child a {
+  color: var(--hub-title-color-dark);
+}
 
 .md-typeset .grid.cards > ul > li {
   border: 1.5px solid rgba(0, 0, 0, 0.35);
@@ -415,4 +441,102 @@
 
 [data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li {
   border-color: rgba(255, 255, 255, 0.28);
+}
+
+/* Horizontal split layout for all Featured Courses cards (title left, contents & button at very right) */
+@media screen and (min-width: 1025px) {
+  .md-typeset .grid.cards {
+    width: var(--course-cards-width);
+    min-width: min(44rem, 100%);
+  }
+
+  .md-typeset .grid.cards > ul > li {
+    display: grid;
+    grid-template-columns: minmax(12rem, 1fr) auto;
+    column-gap: 2rem;
+    align-items: start;
+  }
+
+  .md-typeset .grid.cards > ul > li > :first-child {
+    grid-column: 1;
+    grid-row: 1 / span 5;
+    align-self: center;
+    margin: 0;
+  }
+
+  .md-typeset .grid.cards > ul > li > hr {
+    display: none;
+  }
+
+  .md-typeset .grid.cards > ul > li > :not(:first-child):not(hr) {
+    grid-column: 2;
+    justify-self: end;
+    width: 100%;
+    max-width: 26rem;
+  }
+
+  .md-typeset .grid.cards > ul > li > p:nth-of-type(2) {
+    margin-top: 0;
+  }
+}
+
+/* ==========================================================================
+   Home Page Banner Image (Adjustable Gap, Width & Borderless Controls)
+   ========================================================================== */
+
+:root {
+  --banner-top-gap: -10px;       /* Gap between nav bar and banner (0px = flush) */
+  --banner-bottom-gap: 1.25rem;/* Gap below banner */
+  --banner-width: 100%;        /* Banner width (e.g., 100%, 80%, or 100% + bleed) */
+  --banner-side-bleed: 0px;    /* Increase (e.g. 1.2rem) to remove side margins */
+  --banner-radius: 0px;        /* 0px = borderless sharp edges; 8px = rounded */
+  --banner-shadow: none;       /* none = flat/borderless; or 0 4px 14px rgba(0,0,0,0.1) */
+}
+
+/* Remove extra top gaps on the home page so --banner-top-gap works down to 0px */
+.md-main__inner:has(.home-banner) {
+  margin-top: var(--banner-top-gap) !important;
+}
+
+.md-typeset p:has(> .home-banner) {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.home-banner {
+  display: block;
+  width: calc(var(--banner-width) + 2 * var(--banner-side-bleed));
+  max-width: none;
+  height: auto;
+  margin: 0 calc(-1 * var(--banner-side-bleed)) var(--banner-bottom-gap) calc(-1 * var(--banner-side-bleed));
+  border-radius: var(--banner-radius);
+  box-shadow: var(--banner-shadow);
+}
+
+/* Adjust width of both the navigation bar and page content */
+.md-grid {
+  max-width: 100rem; /* Default is 61rem. Use e.g. 85rem, 95%, or 100% for full width */
+}
+
+/* ==========================================================================
+   Header & Tabs Full Width (Optional for Wider Layouts)
+   ========================================================================== */
+.md-header__inner.md-grid,
+.md-tabs .md-grid {
+  max-width: 100%;
+}
+
+/* ==========================================================================
+   Page Content Width (Adjustable for Wider Layouts)
+   ========================================================================== */
+.md-main__inner.md-grid {
+  max-width: 80rem;
+}
+
+/* ==========================================================================
+   Featured Courses Section Heading Size
+   ========================================================================== */
+
+#featured-courses {
+  font-size: 32px; /* Adjust to any px or rem value */
 }
