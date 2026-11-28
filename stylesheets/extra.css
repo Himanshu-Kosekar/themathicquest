@@ -1,0 +1,541 @@
+/* ==========================================================================
+   Responsive Video Embed Styling
+   ========================================================================== */
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 1.25em 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  background-color: #000000;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Side-by-Side Concept & Practice Video Grid */
+.video-grid {
+  --video-grid-gap: 2rem;          /* Horizontal gap between side-by-side videos */
+  --video-grid-mobile-gap: 1.5rem; /* Vertical gap when stacked on mobile */
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--video-grid-gap);
+  margin: 1.25em 0;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-card-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--md-default-fg-color);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.video-grid .video-wrapper {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+    gap: var(--video-grid-mobile-gap);
+  }
+}
+
+/* ==========================================================================
+   Desmos Interactive Calculator Styling for MkDocs Material
+   ========================================================================== */
+
+.desmos-embed {
+  width: 100%;
+  height: 420px;
+  border: 1px solid var(--md-default-fg-color--lightest, #cbd5e1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1.25em 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background-color: var(--md-default-bg-color, #ffffff);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+[data-md-color-scheme="slate"] .desmos-embed {
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.desmos-embed:focus-within {
+  border-color: var(--md-primary-fg-color, #4f46e5);
+}
+
+@media screen and (max-width: 768px) {
+  .desmos-embed {
+    height: 340px;
+    margin: 1em 0;
+  }
+}
+
+/* ==========================================================================
+   Secondary Sidebar (Right Sidebar) Collapsible Units & Subtopics
+   ========================================================================== */
+
+.toc-subtopics-wrapper {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.toc-subtopics-heading {
+  font-weight: 700 !important;
+  display: flex !important;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--md-default-fg-color) !important;
+  margin-bottom: 0.6rem !important;
+}
+
+.toc-subtopics-heading svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: var(--md-accent-fg-color, #00e5ff);
+}
+
+.toc-course-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.5rem;
+  padding-left: 0.2rem;
+}
+
+.toc-unit-group {
+  margin-bottom: 0.4rem;
+  border-radius: 4px;
+  transition: background-color 0.15s ease;
+}
+
+.toc-unit-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  padding: 0.35rem 0.4rem;
+  cursor: pointer;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--md-default-fg-color);
+  list-style: none;
+  user-select: none;
+  border-radius: 4px;
+}
+
+.toc-unit-header::-webkit-details-marker {
+  display: none;
+}
+
+.toc-unit-header:hover {
+  background-color: var(--md-default-fg-color--lightest, rgba(0, 0, 0, 0.04));
+  color: var(--md-accent-fg-color, #00e5ff);
+}
+
+.toc-unit-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+  transition: transform 0.2s ease;
+}
+
+.toc-unit-chevron svg {
+  width: 0.95rem;
+  height: 0.95rem;
+  fill: currentColor;
+}
+
+.toc-unit-group[open] > .toc-unit-header .toc-unit-chevron {
+  transform: rotate(90deg);
+}
+
+.toc-unit-title {
+  flex-grow: 1;
+}
+
+.toc-unit-items {
+  margin: 0.2rem 0 0.5rem 0.6rem !important;
+  padding-left: 0.6rem !important;
+  border-left: 1.5px solid var(--md-default-fg-color--lightest, rgba(0, 0, 0, 0.1)) !important;
+}
+
+[data-md-color-scheme="slate"] .toc-unit-items {
+  border-left-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.toc-unit-items .md-nav__link {
+  font-size: 0.7rem !important;
+  line-height: 1.35 !important;
+  padding: 0.25rem 0.4rem !important;
+  color: var(--md-default-fg-color--light) !important;
+  border-radius: 3px;
+  transition: all 0.15s ease;
+}
+
+.toc-unit-items .md-nav__link:hover {
+  color: var(--md-accent-fg-color, #00e5ff) !important;
+  background-color: var(--md-default-fg-color--lightest, rgba(0, 0, 0, 0.03)) !important;
+}
+
+.toc-subtopic--active {
+  font-weight: 700 !important;
+  color: var(--md-accent-fg-color, #00e5ff) !important;
+  background-color: rgba(0, 229, 255, 0.08) !important;
+}
+
+[data-md-color-scheme="slate"] .toc-subtopic--active {
+  background-color: rgba(0, 229, 255, 0.15) !important;
+}
+
+.toc-unit-single {
+  padding: 0.2rem 0.4rem;
+}
+
+.toc-unit-single .md-nav__link {
+  font-size: 0.72rem !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.toc-unit-bullet {
+  color: var(--md-default-fg-color--light);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* ==========================================================================
+   Header Site Title & Logo Link
+   ========================================================================== */
+
+.md-header__button.md-logo {
+  display: none !important;
+}
+
+.md-header__title {
+  margin-right: 1.25rem !important;
+}
+
+.md-header__option {
+  margin-left: 0.5rem !important;
+}
+
+.md-header__topic-link {
+  color: inherit;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+  vertical-align: middle;
+}
+
+.md-header__topic-link:hover {
+  opacity: 0.85;
+}
+
+.md-header__logo-img {
+  width: 1.55rem;
+  height: 1.55rem;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 48em) {
+  .md-header__title {
+    margin-left: 0.4rem !important;
+    margin-right: 1.2rem !important;
+  }
+
+  .md-header__option {
+    margin-left: 0.8rem !important;
+  }
+
+  .md-header__logo-img {
+    width: 1.35rem;
+    height: 1.35rem;
+  }
+
+  .md-header__topic-link {
+    gap: 0.45rem;
+  }
+}
+
+/* ==========================================================================
+   Page Spacing & Top Gap Optimization
+   ========================================================================== */
+
+.md-main__inner {
+  margin-top: 0.4rem !important;
+}
+
+.md-content__inner {
+  padding-top: 0 !important;
+}
+
+.md-typeset h1:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* ==========================================================================
+   Home Page Hero Title (Adaptive Colors & Variable Fluid Size)
+   ========================================================================== */
+
+:root {
+  /* Change this variable to adjust hero-title size across all devices */
+  --hero-title-size: clamp(1.25rem, 2.2vw + 0.5rem, 2.5rem);
+}
+
+.hero-title {
+  font-size: var(--hero-title-size) !important;
+  line-height: 1.25 !important;
+  text-align: center;
+  color: #000000 !important;
+  transition: color 0.25s ease;
+}
+
+[data-md-color-scheme="slate"] .hero-title {
+  color: #ffffff !important;
+}
+
+/* ==========================================================================
+   AP Precalculus Course Roadmap Table Styling
+   ========================================================================== */
+
+.roadmap-table {
+  --roadmap-col-gap: 0.35rem;        /* Horizontal spacing inside/between columns */
+  --roadmap-subtopic-gap: 0.35rem; /* Vertical spacing between stacked subtopics */
+}
+
+.roadmap-table .md-typeset__table {
+  width: 100%;
+}
+
+.roadmap-table table {
+  width: 100%; /* Ensures table fills the container */
+  table-layout: fixed; /* Enforces exact column widths */
+}
+
+/* Font size, line spacing, and column spacing */
+.roadmap-table table th,
+.roadmap-table table td {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  padding: 0.65rem var(--roadmap-col-gap) !important;
+}
+
+/* Vertical spacing between stacked subtopics in Column 3 */
+.roadmap-table table td:nth-child(3) a {
+  display: inline-block;
+  margin-bottom: var(--roadmap-subtopic-gap);
+}
+
+.roadmap-table table td:nth-child(3) a:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Column 1: Unit */
+.roadmap-table table th:nth-child(1),
+.roadmap-table table td:nth-child(1) {
+  width: 14%;
+}
+
+/* Column 2: Title */
+.roadmap-table table th:nth-child(2),
+.roadmap-table table td:nth-child(2) {
+  width: 32%;
+}
+
+/* Column 3: Sub-Topics */
+.roadmap-table table th:nth-child(3),
+.roadmap-table table td:nth-child(3) {
+  width: 54%;
+}
+
+/* ==========================================================================
+   Compact Download Buttons (Worksheet & Review Notes)
+   ========================================================================== */
+
+.download-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.md-typeset .md-button.btn-compact {
+  --btn-font-size: 0.65rem;  /* Adjust button text & icon size */
+  --btn-padding-y: 0.3rem;   /* Adjust vertical padding (height) */
+  --btn-padding-x: 0.85rem;  /* Adjust horizontal padding (width) */
+
+  font-size: var(--btn-font-size);
+  padding: var(--btn-padding-y) var(--btn-padding-x);
+  line-height: 1.3;
+}
+
+/* ==========================================================================
+   Featured Courses Card Layout & Borders
+   ========================================================================== */
+
+.md-typeset .grid.cards {
+  --course-cards-width: 60%;                    /* Course boxes width */
+  --hub-title-size: 24px;                       /* Fixed px size (independent of window size) */
+  --hub-title-color-light: #00007e;             /* Hub title color (light mode) */
+  --hub-title-color-dark: #eeeeee;              /* Hub title color (dark mode) */
+
+  grid-template-columns: 1fr !important; /* Stack course cards one per row */
+  width: 100%;
+  margin: 1em auto !important; /* Center the course boxes on the page */
+}
+
+.md-typeset .grid.cards > ul > li > :first-child {
+  padding-left: 1.5rem; /* Adjust left padding for AP Precalculus & AP Calculus AB */
+}
+
+.md-typeset .grid.cards > ul > li > :first-child,
+.md-typeset .grid.cards > ul > li > :first-child a {
+  font-size: var(--hub-title-size);
+  color: var(--hub-title-color-light);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li > :first-child,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li > :first-child a {
+  color: var(--hub-title-color-dark);
+}
+
+.md-typeset .grid.cards > ul > li {
+  border: 1.5px solid rgba(0, 0, 0, 0.35);
+  border-radius: 6px;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li {
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+/* Horizontal split layout for all Featured Courses cards (title left, contents & button at very right) */
+@media screen and (min-width: 1025px) {
+  .md-typeset .grid.cards {
+    width: var(--course-cards-width);
+    min-width: min(44rem, 100%);
+  }
+
+  .md-typeset .grid.cards > ul > li {
+    display: grid;
+    grid-template-columns: 1fr 20rem;
+    column-gap: 2rem;
+    align-items: start;
+  }
+
+  .md-typeset .grid.cards > ul > li > :first-child {
+    grid-column: 1;
+    grid-row: 1 / span 5;
+    align-self: center;
+    margin: 0;
+  }
+
+  .md-typeset .grid.cards > ul > li > hr {
+    display: none;
+  }
+
+  .md-typeset .grid.cards > ul > li > :not(:first-child):not(hr) {
+    grid-column: 2;
+    justify-self: end;
+    width: 100%;
+  }
+
+  .md-typeset .grid.cards > ul > li > p:nth-of-type(2) {
+    margin-top: 0;
+  }
+}
+
+/* ==========================================================================
+   Home Page Banner Image (Adjustable Gap, Width & Borderless Controls)
+   ========================================================================== */
+
+:root {
+  --banner-top-gap: -10px;       /* Gap between nav bar and banner (0px = flush) */
+  --banner-bottom-gap: 1.25rem;/* Gap below banner */
+  --banner-width: 100%;        /* Banner width (e.g., 100%, 80%, or 100% + bleed) */
+  --banner-side-bleed: 0px;    /* Increase (e.g. 1.2rem) to remove side margins */
+  --banner-radius: 0px;        /* 0px = borderless sharp edges; 8px = rounded */
+  --banner-shadow: none;       /* none = flat/borderless; or 0 4px 14px rgba(0,0,0,0.1) */
+}
+
+/* Remove extra top gaps on the home page so --banner-top-gap works down to 0px */
+.md-main__inner:has(.home-banner) {
+  margin-top: var(--banner-top-gap) !important;
+}
+
+.md-typeset p:has(> .home-banner) {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.home-banner {
+  display: block;
+  width: calc(var(--banner-width) + 2 * var(--banner-side-bleed));
+  max-width: none;
+  height: auto;
+  margin: 0 calc(-1 * var(--banner-side-bleed)) var(--banner-bottom-gap) calc(-1 * var(--banner-side-bleed));
+  border-radius: var(--banner-radius);
+  box-shadow: var(--banner-shadow);
+}
+
+/* Adjust width of both the navigation bar and page content */
+.md-grid {
+  max-width: 100rem; /* Default is 61rem. Use e.g. 85rem, 95%, or 100% for full width */
+}
+
+/* ==========================================================================
+   Header & Tabs Full Width (Optional for Wider Layouts)
+   ========================================================================== */
+.md-header__inner.md-grid,
+.md-tabs .md-grid {
+  max-width: 100%;
+}
+
+/* ==========================================================================
+   Page Content Width (Adjustable for Wider Layouts)
+   ========================================================================== */
+.md-main__inner.md-grid {
+  max-width: 80rem;
+}
+
+/* ==========================================================================
+   Featured Courses Section Heading Size
+   ========================================================================== */
+
+#featured-courses {
+  font-size: 32px; /* Adjust to any px or rem value */
+}
